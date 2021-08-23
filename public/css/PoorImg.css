@@ -1,0 +1,45 @@
+.bg-style {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  margin: auto;
+  height: auto;
+  padding: 10px 30px;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.cus {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  background-color: #02b24f;
+}
+.Mission {
+  position: relative;
+  display: inline-block;
+}
+.Mission:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 12px auto;
+  width: 40%;
+  height: 2px;
+  background: rgb(255, 255, 255);
+}
+
+.br-radius {
+  border-radius: 40px;
+  width: 150px;
+  padding: 7px;
+  
+}
+
+.container {
+  width: 80%;
+}

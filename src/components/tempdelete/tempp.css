@@ -1,0 +1,54 @@
+/* Parent section  */
+
+/* Main sectioon  */
+.Main-section {
+  background-image: linear-gradient(
+      rgb(247, 151, 109, 1),
+      rgb(205, 161, 98, 0.8)
+    ),
+    url(../../img/Poorkid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  color: white;
+}
+
+.bg-icon1 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+/* first part  */
+.voluntneer-btn {
+  border-radius: 30px;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  padding: 7px 30px;
+}
+
+.banner-text {
+  line-height: 41px;
+  text-transform: capitalize;
+}
+.first-section {
+  padding-left: 70px;
+}
+/* second part  */
+
+.trophy {
+  font-size: 40px;
+  color: rgb(255, 170, 42);
+  font-weight: 700;
+  background-color: white;
+  border-radius: 50%;
+  padding: 25px;
+}
+.trophy:hover{
+  background-color: black;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.num-hai {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
